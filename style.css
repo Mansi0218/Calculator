@@ -70,3 +70,9 @@ button:active {
 .operator-btn:active {
     background-color: hsl(35, 100%, 60%);
 }
+
+@media screen and (max-width:500px) {
+    #calculator {
+        max-width: 348px;
+    }
+}
